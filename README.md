@@ -9,9 +9,11 @@ Then, just launch the script with NodeJS.
 You must install it with NPM, here where you can download this :
 https://nodejs.org/en/download
 Then, start a CMD session, copy the path to your folder where "script.js" is, and type :
-> cd C:/you/folder/location
-> npm i
-> node script.js
+```
+cd C:/you/folder/location
+npm i
+node script.js
+```
 
 You need to do *npm i* only once, and even once may be useless, but we never too sure. You don't need ever do type it again.
 When you did that, you'll see what is the script doing.
@@ -20,10 +22,12 @@ When you did that, you'll see what is the script doing.
 You can setup a .bat file, which need only two click on you desktop to launch the script.
 Create a file with the name you wish but with a ".bat" extension, like "roses.bat".
 Edit this file with notepad for exemple, and type :
-> @echo off
-> cd C:/you/folder/location
-> node script.js
-> pause
+```
+@echo off
+cd C:/you/folder/location
+node script.js
+pause
+```
 
 Then save it and when you double-click on it on your desktop or your file explorer, the script will execute.
 Remove "pause" if you want the window to close itself after the script execution.
